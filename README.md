@@ -120,6 +120,11 @@ Task {
 > ✅ Recommended default model for English-only apps: `ggml-base.en.bin` (142 MiB)
 You can also explore the [Whisper.cpp GitHub repo](https://github.com/ggerganov/whisper.cpp) for more models, quantization options, and platform-specific setup (including iOS).
 
+## 🔗 Related Repositories
+
+- [WhisperCore iOS Demo]([https://github.com/EberronBruce/WhisperCore](https://github.com/EberronBruce/WhisperCore_iOS_Demo.git)) – Reusable Swift library built from this demo project
+
+
 ## License
 
 WhisperCore is released under the MIT License.  
