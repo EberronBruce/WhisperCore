@@ -122,7 +122,7 @@ You can also explore the [Whisper.cpp GitHub repo](https://github.com/ggerganov/
 
 ## 🔗 Related Repositories
 
-- [WhisperCore iOS Demo]((https://github.com/EberronBruce/WhisperCore_iOS_Demo.git)) – Project used to build WhsiperCore.
+- [WhisperCore iOS Demo](https://github.com/EberronBruce/WhisperCore_iOS_Demo.git) – Project used to build WhsiperCore.
 
 
 ## License
