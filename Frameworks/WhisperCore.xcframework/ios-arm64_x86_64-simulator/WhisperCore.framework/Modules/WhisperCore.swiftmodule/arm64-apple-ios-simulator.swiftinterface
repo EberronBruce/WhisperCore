@@ -1,0 +1,40 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios16.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name WhisperCore
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import AVFoundation
+import Foundation
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import whisper
+@_Concurrency.MainActor final public class Whisper {
+  @_Concurrency.MainActor public init()
+  @_Concurrency.MainActor weak final public var delegate: (any WhisperCore.WhisperDelegate)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor final public func initializeModel(at modelPath: Swift.String, log: Swift.Bool = false) async throws
+  @_Concurrency.MainActor final public func initializeModel(at modelPath: Swift.String, log: Swift.Bool = false, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
+  @_Concurrency.MainActor final public func callRequestRecordPermission()
+  @_Concurrency.MainActor final public func startRecording() async
+  @_Concurrency.MainActor final public func stopRecording() async
+  @_Concurrency.MainActor final public func toggleRecording() async
+  @_Concurrency.MainActor final public func transcribeSample(from url: Foundation.URL) async
+  @_Concurrency.MainActor final public func enablePlayback(_ enabled: Swift.Bool)
+  @_Concurrency.MainActor final public func reset()
+  @_Concurrency.MainActor final public func canTranscribe() -> Swift.Bool
+  @_Concurrency.MainActor final public func isRecording() -> Swift.Bool
+  @_Concurrency.MainActor final public func isModelLoaded() -> Swift.Bool
+  @_Concurrency.MainActor final public func getMessageLogs() -> Swift.String
+  @objc deinit
+}
+public protocol WhisperDelegate : AnyObject {
+  func didTranscribe(_ text: Swift.String)
+  func recordingFailed(_ error: any Swift.Error)
+  func failedToTranscribe(_ error: any Swift.Error)
+}
+extension WhisperCore.Whisper : Swift.Sendable {}

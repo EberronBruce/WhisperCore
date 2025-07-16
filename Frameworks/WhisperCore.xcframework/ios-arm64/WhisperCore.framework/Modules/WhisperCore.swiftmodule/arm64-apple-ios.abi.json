@@ -1,0 +1,830 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "WhisperCore",
+    "printedName": "WhisperCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Whisper",
+        "printedName": "Whisper",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Whisper",
+                "printedName": "WhisperCore.Whisper",
+                "usr": "s:11WhisperCore0A0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11WhisperCore0A0CACycfc",
+            "mangledName": "$s11WhisperCore0A0CACycfc",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any WhisperCore.WhisperDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11WhisperCore0A0C8delegateAA0A8Delegate_pSgvp",
+            "mangledName": "$s11WhisperCore0A0C8delegateAA0A8Delegate_pSgvp",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any WhisperCore.WhisperDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WhisperDelegate",
+                        "printedName": "any WhisperCore.WhisperDelegate",
+                        "usr": "s:11WhisperCore0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WhisperCore0A0C8delegateAA0A8Delegate_pSgvg",
+                "mangledName": "$s11WhisperCore0A0C8delegateAA0A8Delegate_pSgvg",
+                "moduleName": "WhisperCore",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any WhisperCore.WhisperDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WhisperDelegate",
+                        "printedName": "any WhisperCore.WhisperDelegate",
+                        "usr": "s:11WhisperCore0A8DelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WhisperCore0A0C8delegateAA0A8Delegate_pSgvs",
+                "mangledName": "$s11WhisperCore0A0C8delegateAA0A8Delegate_pSgvs",
+                "moduleName": "WhisperCore",
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11WhisperCore0A0C8delegateAA0A8Delegate_pSgvM",
+                "mangledName": "$s11WhisperCore0A0C8delegateAA0A8Delegate_pSgvM",
+                "moduleName": "WhisperCore",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initializeModel",
+            "printedName": "initializeModel(at:log:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C15initializeModel2at3logySS_SbtYaKF",
+            "mangledName": "$s11WhisperCore0A0C15initializeModel2at3logySS_SbtYaKF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeModel",
+            "printedName": "initializeModel(at:log:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<(), any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<(), any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C15initializeModel2at3log10completionySS_Sbys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s11WhisperCore0A0C15initializeModel2at3log10completionySS_Sbys6ResultOyyts5Error_pGctF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "callRequestRecordPermission",
+            "printedName": "callRequestRecordPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C27callRequestRecordPermissionyyF",
+            "mangledName": "$s11WhisperCore0A0C27callRequestRecordPermissionyyF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRecording",
+            "printedName": "startRecording()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C14startRecordingyyYaF",
+            "mangledName": "$s11WhisperCore0A0C14startRecordingyyYaF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopRecording",
+            "printedName": "stopRecording()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C13stopRecordingyyYaF",
+            "mangledName": "$s11WhisperCore0A0C13stopRecordingyyYaF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toggleRecording",
+            "printedName": "toggleRecording()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C15toggleRecordingyyYaF",
+            "mangledName": "$s11WhisperCore0A0C15toggleRecordingyyYaF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "transcribeSample",
+            "printedName": "transcribeSample(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C16transcribeSample4fromy10Foundation3URLV_tYaF",
+            "mangledName": "$s11WhisperCore0A0C16transcribeSample4fromy10Foundation3URLV_tYaF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enablePlayback",
+            "printedName": "enablePlayback(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C14enablePlaybackyySbF",
+            "mangledName": "$s11WhisperCore0A0C14enablePlaybackyySbF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C5resetyyF",
+            "mangledName": "$s11WhisperCore0A0C5resetyyF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "canTranscribe",
+            "printedName": "canTranscribe()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C13canTranscribeSbyF",
+            "mangledName": "$s11WhisperCore0A0C13canTranscribeSbyF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRecording",
+            "printedName": "isRecording()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C11isRecordingSbyF",
+            "mangledName": "$s11WhisperCore0A0C11isRecordingSbyF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isModelLoaded",
+            "printedName": "isModelLoaded()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C13isModelLoadedSbyF",
+            "mangledName": "$s11WhisperCore0A0C13isModelLoadedSbyF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getMessageLogs",
+            "printedName": "getMessageLogs()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A0C14getMessageLogsSSyF",
+            "mangledName": "$s11WhisperCore0A0C14getMessageLogsSSyF",
+            "moduleName": "WhisperCore",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11WhisperCore0A0C",
+        "mangledName": "$s11WhisperCore0A0C",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "Custom"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "WhisperCore"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WhisperDelegate",
+        "printedName": "WhisperDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didTranscribe",
+            "printedName": "didTranscribe(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A8DelegateP13didTranscribeyySSF",
+            "mangledName": "$s11WhisperCore0A8DelegateP13didTranscribeyySSF",
+            "moduleName": "WhisperCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : WhisperCore.WhisperDelegate>",
+            "sugared_genericSig": "<Self where Self : WhisperCore.WhisperDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "recordingFailed",
+            "printedName": "recordingFailed(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A8DelegateP15recordingFailedyys5Error_pF",
+            "mangledName": "$s11WhisperCore0A8DelegateP15recordingFailedyys5Error_pF",
+            "moduleName": "WhisperCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : WhisperCore.WhisperDelegate>",
+            "sugared_genericSig": "<Self where Self : WhisperCore.WhisperDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "failedToTranscribe",
+            "printedName": "failedToTranscribe(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11WhisperCore0A8DelegateP18failedToTranscribeyys5Error_pF",
+            "mangledName": "$s11WhisperCore0A8DelegateP18failedToTranscribeyys5Error_pF",
+            "moduleName": "WhisperCore",
+            "genericSig": "<τ_0_0 where τ_0_0 : WhisperCore.WhisperDelegate>",
+            "sugared_genericSig": "<Self where Self : WhisperCore.WhisperDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11WhisperCore0A8DelegateP",
+        "mangledName": "$s11WhisperCore0A8DelegateP",
+        "moduleName": "WhisperCore",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WhisperCore"
+      },
+      {
+        "kind": "Import",
+        "name": "whisper",
+        "printedName": "whisper",
+        "declKind": "Import",
+        "moduleName": "WhisperCore"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/Whisper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1090,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/Whisper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1541,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1561,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
+      "kind": "StringLiteral",
+      "offset": 1601,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1645,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1686,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1952,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1997,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2454,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper Test\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3712,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}
