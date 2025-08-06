@@ -16,6 +16,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -787,16 +797,6 @@
         "printedName": "AVFoundation",
         "declKind": "Import",
         "moduleName": "WhisperCore"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WhisperCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       }
     ],
     "json_format_version": 8
