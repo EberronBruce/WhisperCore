@@ -15,6 +15,40 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "WhisperCore"
+      },
+      {
+        "kind": "Import",
+        "name": "whisper",
+        "printedName": "whisper",
+        "declKind": "Import",
+        "moduleName": "WhisperCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "WhisperCore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "Whisper",
         "printedName": "Whisper",
@@ -670,8 +704,8 @@
           },
           {
             "kind": "Function",
-            "name": "startRecording",
-            "printedName": "startRecording()",
+            "name": "didStartRecording",
+            "printedName": "didStartRecording()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -680,8 +714,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WhisperCore0A8DelegateP14startRecordingyyF",
-            "mangledName": "$s11WhisperCore0A8DelegateP14startRecordingyyF",
+            "usr": "s:11WhisperCore0A8DelegateP17didStartRecordingyyF",
+            "mangledName": "$s11WhisperCore0A8DelegateP17didStartRecordingyyF",
             "moduleName": "WhisperCore",
             "genericSig": "<τ_0_0 where τ_0_0 : WhisperCore.WhisperDelegate>",
             "sugared_genericSig": "<Self where Self : WhisperCore.WhisperDelegate>",
@@ -691,8 +725,8 @@
           },
           {
             "kind": "Function",
-            "name": "stopRecording",
-            "printedName": "stopRecording()",
+            "name": "didStopRecording",
+            "printedName": "didStopRecording()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -701,8 +735,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11WhisperCore0A8DelegateP13stopRecordingyyF",
-            "mangledName": "$s11WhisperCore0A8DelegateP13stopRecordingyyF",
+            "usr": "s:11WhisperCore0A8DelegateP16didStopRecordingyyF",
+            "mangledName": "$s11WhisperCore0A8DelegateP16didStopRecordingyyF",
             "moduleName": "WhisperCore",
             "genericSig": "<τ_0_0 where τ_0_0 : WhisperCore.WhisperDelegate>",
             "sugared_genericSig": "<Self where Self : WhisperCore.WhisperDelegate>",
@@ -763,40 +797,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WhisperCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "WhisperCore"
-      },
-      {
-        "kind": "Import",
-        "name": "whisper",
-        "printedName": "whisper",
-        "declKind": "Import",
-        "moduleName": "WhisperCore"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "WhisperCore",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       }
     ],
     "json_format_version": 8
@@ -819,56 +819,56 @@
     {
       "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper\/iOS\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1612,
+      "offset": 1618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper\/iOS\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
       "kind": "StringLiteral",
-      "offset": 1652,
+      "offset": 1658,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper\/iOS\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1696,
+      "offset": 1702,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper\/iOS\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
       "kind": "BooleanLiteral",
-      "offset": 1737,
+      "offset": 1743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper\/iOS\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2003,
+      "offset": 2009,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper\/iOS\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2048,
+      "offset": 2054,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper\/iOS\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2505,
+      "offset": 2511,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bruceburgess\/Documents\/Projects\/Whisper\/iOS\/iOS_Whisper_Core_Demo\/WhisperCore\/Models\/WhisperState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3763,
+      "offset": 3769,
       "length": 5,
       "value": "false"
     }

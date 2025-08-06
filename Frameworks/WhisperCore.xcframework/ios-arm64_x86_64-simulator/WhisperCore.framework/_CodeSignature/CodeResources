@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		QkpMHAd+TYtFl/90ABEitbHr4uU=
+		eq37iEpq8h33WjBYaz/hqeCZiqc=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		8kj3hzbCukWuGJPRN44P+ghGkuM=
+		KfFoRlME5jxA9EvDdpVG+kSSkDw=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		8kj3hzbCukWuGJPRN44P+ghGkuM=
+		KfFoRlME5jxA9EvDdpVG+kSSkDw=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HfHWJgsHMs/+6yndKvw5rTay2KE=
+		S7srbFUcaR0HSbVxmnf6uyIQrTo=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		QkpMHAd+TYtFl/90ABEitbHr4uU=
+		eq37iEpq8h33WjBYaz/hqeCZiqc=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hWPS60CCc4IQej6ct37jNnkRBOI=
+		mLi/p5MzZWM4uPayfthO9wM9b2w=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hWPS60CCc4IQej6ct37jNnkRBOI=
+		mLi/p5MzZWM4uPayfthO9wM9b2w=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gGC9P4NNYGwcdWrdlKGDcVlOsnc=
+		dvKqO6mLthzraxMvJGSVK3G8tsg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mpPR435yVttUV5+kCq1/HqF3Kz6cb9otkhG7DECtO48=
+			JAZ8xsBmiFV+MdoCulODeNopmTv/rLKgNS5/3LAANUM=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0cqq7Te2EFx42ywtgYwrorAHk76r12PcRCsAPqZNRDU=
+			avtJ65X5onbla1dIJi5nZqYYBBQYmnrVR1lTYckXfpA=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -76,28 +76,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0cqq7Te2EFx42ywtgYwrorAHk76r12PcRCsAPqZNRDU=
+			avtJ65X5onbla1dIJi5nZqYYBBQYmnrVR1lTYckXfpA=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			41RQsUewBNA2a+/+RgrNWQNQW2VZpYLSL8VnXc5accE=
+			0+v8yCuKsbN7jHeF8UTP8ZqB7QaATMT73XLM47VaoHg=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mpPR435yVttUV5+kCq1/HqF3Kz6cb9otkhG7DECtO48=
+			JAZ8xsBmiFV+MdoCulODeNopmTv/rLKgNS5/3LAANUM=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gilC6ViYJdVpvICOTQ3XsDZ7+k4Cme0WWkEQzLyz9hU=
+			gvAT26AFmct+DQi8/XPGIfhEQT81gt9DJ+wWWIAMWsY=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gilC6ViYJdVpvICOTQ3XsDZ7+k4Cme0WWkEQzLyz9hU=
+			gvAT26AFmct+DQi8/XPGIfhEQT81gt9DJ+wWWIAMWsY=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PlLOeylj+7CiwlfbCYjHwsqcrw+T/2ExRcoD4zldzFI=
+			nHrmua6PC05sT529tLTMRguQYaSsqzGhh+DsIhQg6KU=
 			</data>
 		</dict>
 	</dict>

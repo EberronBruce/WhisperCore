@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		RuAi1n2jDvpUEwujycV9Y2mbxAo=
+		eq37iEpq8h33WjBYaz/hqeCZiqc=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		/jRI/bPhmoXlOP8kqGM9wxERkzU=
+		4Tzs6agA8w68BXeBV3tATj79904=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		/jRI/bPhmoXlOP8kqGM9wxERkzU=
+		4Tzs6agA8w68BXeBV3tATj79904=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OwcLrU7CqIp7bEkeuo1gGx+PJu8=
+		Gat9hQnli3dDpWVqyv5tXgzSSJs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,14 +35,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KuvAYjIFH6rnSNPTq+cMER1rc1/EDwFy8e9YlkT3D0U=
+			JAZ8xsBmiFV+MdoCulODeNopmTv/rLKgNS5/3LAANUM=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0wVd+KaaxWbnrMINPCyENwVoAOtifthgVNhrJD0I31w=
+			Eutes4hAsmmCFU8Ahjx7O6+X76Q+hh0/O3SO2PTms3g=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -56,14 +56,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0wVd+KaaxWbnrMINPCyENwVoAOtifthgVNhrJD0I31w=
+			Eutes4hAsmmCFU8Ahjx7O6+X76Q+hh0/O3SO2PTms3g=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+mwRtFIDh4UCqUmscrnkPBUJ/9P9aKSjUYHH0KyDhBQ=
+			bRMgMr4VYQmF2qduJQRp31mrSeSMG87//DP6ZA8307Q=
 			</data>
 		</dict>
 	</dict>
