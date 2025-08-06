@@ -61,6 +61,8 @@ To receive transcriptions or error feedback, assign a delegate conforming to ``W
 - ``WhisperDelegate/didTranscribe(_:)`` – Called with the transcribed text
 - ``WhisperDelegate/recordingFailed(_:)`` – Called when microphone access or recording fails
 - ``WhisperDelegate/failedToTranscribe(_:)`` – Called when transcription fails
+- ``WhisperDelegate/startRecording(_:)`` – Called when audio recording has started
+- ``WhisperDelegate/stopRecording(_:)`` – Called when audio recording has stopped
 
 ---
 

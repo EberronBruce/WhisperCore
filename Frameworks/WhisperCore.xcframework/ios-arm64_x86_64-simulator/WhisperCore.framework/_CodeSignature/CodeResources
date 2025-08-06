@@ -4,154 +4,121 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/whisper.framework/Info.plist</key>
-		<data>
-		iZkssn9VT/Ffq/QSJzp3QUzlozw=
-		</data>
-		<key>Frameworks/whisper.framework/_CodeSignature/CodeResources</key>
-		<data>
-		GImrz7DNiTbiBPpWOGmE7cksxKY=
-		</data>
-		<key>Frameworks/whisper.framework/whisper</key>
-		<data>
-		f0Cnv+SAZz/l5JuzXPDfJa7+t4o=
-		</data>
 		<key>Info.plist</key>
 		<data>
 		zPw0FEGRfvhzpw4+hrCrxVzvkYA=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		s+iI0alC/a0TlGnQcyNB0uJPASg=
+		jbF7MZnG3mhyM/RtCJvLNL+yFRM=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ALbdolmhKEJ6LBuPdbh/O4A2NeM=
+		8kj3hzbCukWuGJPRN44P+ghGkuM=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5RiWaEytei/yMnqcbSV+/P5rF24=
+		g7aJxx4ca2A0V0yr6ABJkuvXReM=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ALbdolmhKEJ6LBuPdbh/O4A2NeM=
+		8kj3hzbCukWuGJPRN44P+ghGkuM=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wX533vtyvgOxhdjmYuK+3J3LAk0=
+		Al1fUlVgq/vwJAILnB9QuKBEiFA=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		s+iI0alC/a0TlGnQcyNB0uJPASg=
+		jbF7MZnG3mhyM/RtCJvLNL+yFRM=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		hXI/3Y60/39vIpxEytMQT6zve5Y=
+		hWPS60CCc4IQej6ct37jNnkRBOI=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hqTsEoFYCIvC7AoI5/yeY9DMSl4=
+		3GOlDDUVyx+EicLH7OS7TSpUY7U=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		hXI/3Y60/39vIpxEytMQT6zve5Y=
+		hWPS60CCc4IQej6ct37jNnkRBOI=
 		</data>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		95rdeYiuVLXuaJvUhCiTQOrTO3s=
+		9vS/6e41ZcyOwxYG43b3a40HNzU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/whisper.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ayAIXoPDXWX3a6eeKhVPfqfiovr+ZwPscTr0U1Nky8o=
-			</data>
-		</dict>
-		<key>Frameworks/whisper.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dK4tQjH+Op+dhDQUrWwRi7Z772gacCT7E6fsS3fiAvA=
-			</data>
-		</dict>
-		<key>Frameworks/whisper.framework/whisper</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VeZqyANcd+Mffaov8sDqm6zkrB0V+eczeCT+VpQLwME=
-			</data>
-		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fAls2gkbqaxlMUPfdblv+MvWvGqR4dvgLAdXSWKKJS4=
+			f9GY7aDzNVJD/PENCCuKPQ402joVXkjZwCBZga5m5xY=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6vs6hECti1ZTmLPu89asCbbetcmhnmTymCEgUdb76VE=
+			0cqq7Te2EFx42ywtgYwrorAHk76r12PcRCsAPqZNRDU=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wblnd57A+wgztsABO6evmBl0l9u5/9psv4XYgLXRzhI=
+			Ad77BBwjHj+hMYeff7UMN0/wVxt6GFBVk/J8D9aqfSE=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6vs6hECti1ZTmLPu89asCbbetcmhnmTymCEgUdb76VE=
+			0cqq7Te2EFx42ywtgYwrorAHk76r12PcRCsAPqZNRDU=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NNxubevheCAJHdUv4wBHwYGJ3cKvvzjhuo9y/wIRY8s=
+			llvCXViCheGZQbmzgBnxcKfxBwoiCTNQpwoeEK3CD3Q=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fAls2gkbqaxlMUPfdblv+MvWvGqR4dvgLAdXSWKKJS4=
+			f9GY7aDzNVJD/PENCCuKPQ402joVXkjZwCBZga5m5xY=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SydByZv7KKyFeFjPLCm0uYS4SzJjHDWGpEHx1ouGIX8=
+			gilC6ViYJdVpvICOTQ3XsDZ7+k4Cme0WWkEQzLyz9hU=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wb1F0NJfCzFg2YbdFiVMwsbgOKkgqwazptV6C9sR7SY=
+			FEwB/AcOTnYMYtmEb7PoU0NXI7VP1qPfWU9Md9LfApk=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SydByZv7KKyFeFjPLCm0uYS4SzJjHDWGpEHx1ouGIX8=
+			gilC6ViYJdVpvICOTQ3XsDZ7+k4Cme0WWkEQzLyz9hU=
 			</data>
 		</dict>
 		<key>Modules/WhisperCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rAcaumkQJCXqyZOsZgVa8x70Q+TenRwZ+WVWK0v5UdI=
+			2j4P9fuXNA7IZVX9PllpDGX1XjU0YMLgc9IhUZ64TwI=
 			</data>
 		</dict>
 	</dict>

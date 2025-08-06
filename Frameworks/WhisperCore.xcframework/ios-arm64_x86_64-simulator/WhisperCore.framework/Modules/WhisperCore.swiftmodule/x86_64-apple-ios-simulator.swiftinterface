@@ -36,5 +36,7 @@ public protocol WhisperDelegate : AnyObject {
   func didTranscribe(_ text: Swift.String)
   func recordingFailed(_ error: any Swift.Error)
   func failedToTranscribe(_ error: any Swift.Error)
+  func startRecording()
+  func stopRecording()
 }
 extension WhisperCore.Whisper : Swift.Sendable {}
